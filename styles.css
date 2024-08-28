@@ -27,7 +27,7 @@ nav ul li a {
 
 header {
     background-color: #333;
-    color: white;
+    color: #FFD700; /* Changed text color to gold */
     padding: 20px;
     text-align: center;
 }
