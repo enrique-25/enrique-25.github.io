@@ -6,6 +6,12 @@
     <title>Page Not Found</title>
     <link rel="stylesheet" href="styles.css">
     <meta http-equiv="refresh" content="5; url=index.html"> <!-- Auto-redirect after 5 seconds -->
+    <script>
+        // JavaScript fallback for redirecting
+        setTimeout(function(){
+            window.location.href = "index.html";
+        }, 5000);
+    </script>
 </head>
 <body>
     <header>
