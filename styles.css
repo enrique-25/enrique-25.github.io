@@ -1,80 +1,69 @@
-/* Base Styles */
-body {
-   font-family: Arial, sans-serif;
+* {
    margin: 0;
    padding: 0;
-   background-color: #f0f0f0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: 'Arial', sans-serif;
    color: #333;
-}
-
-/* Navigation Bar */
-nav {
-   background-color: #444;
-   padding: 15px;
-}
-
-nav ul {
-   list-style-type: none;
-   padding: 0;
-}
-
-nav ul li {
-   display: inline;
-   margin-right: 15px;
-}
-
-nav ul li a {
+ }
+ 
+ header {
+   background-color: #333;
+   padding: 10px;
+ }
+ 
+ .logo h1 {
+   color: #fff;
+   text-align: center;
+ }
+ 
+ .nav-links {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+ }
+ 
+ .nav-links li {
+   margin: 0 15px;
+ }
+ 
+ .nav-links a {
    color: #fff;
    text-decoration: none;
-   font-weight: bold;
-}
-
-nav ul li a:hover {
-   color: #FFD700;
-}
-
-/* Header */
-header {
-   background-color: #0066cc;
-   color: #fff;
+ }
+ 
+ .banner, .about-me, .final-project, .projects, .error-page {
    padding: 20px;
    text-align: center;
-}
-
-header h1 {
-   margin: 0;
-   font-size: 2.5em;
-}
-
-/* Main Content */
-main {
-   margin: 20px;
-}
-
-/* Headings */
-h2 {
-   color: #0066cc;
-   border-bottom: 2px solid #0066cc;
-   padding-bottom: 5px;
-}
-
-/* Links */
-a {
-   color: #0066cc;
-   text-decoration: none;
-}
-
-a:hover {
-   color: #FFD700;
-}
-
-/* Footer */
-footer {
-   background-color: #444;
+ }
+ 
+ .banner {
+   background-color: #f4f4f4;
+   padding: 50px;
+ }
+ 
+ .banner h2 {
+   margin-bottom: 20px;
+ }
+ 
+ .cta-button {
+   background-color: #333;
    color: #fff;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+ }
+ 
+ .cta-button:hover {
+   background-color: #555;
+ }
+ 
+ footer {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
    text-align: center;
-   padding: 10px 0;
-   position: fixed;
-   bottom: 0;
-   width: 100%;
-}
+  
+ 
