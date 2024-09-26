@@ -245,6 +245,9 @@
  form button:hover {
    background-color: #005f99;
  }
+ .about-me img{
+  width:60%;
+ }
  
  /* Responsive Design */
  @media (max-width: 768px) {
